@@ -1,4 +1,3 @@
-function()
         for j, cV in ipairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do
             if cV:IsA("Tool") then
                 cV.Parent = game:GetService("Players").LocalPlayer.Character
@@ -9,5 +8,3 @@ function()
                 v.GripPos = Vector3.new(7, 0, 3)
             end
         end
-    end
-)
